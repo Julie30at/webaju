@@ -1,4 +1,4 @@
-import logoHTML from './logoHtml..webp';
+import logoHTML from './html.webp';
 import logoSassCSS from './logoSassCSS.webp';
 import logoFigma from './logoFigma.webp';
 import logoJS from './logoJS.webp';

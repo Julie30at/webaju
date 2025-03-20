@@ -10,16 +10,13 @@
   font-style: italic;
   font-weight: 500;
   text-align: left;
-  border-top: 0.125rem solid #D38312;
-  border-bottom: 0.125rem solid #D38312;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
   padding: 1.25rem 0 0.625rem 6.25rem;
   margin-bottom: 2.5rem;
   margin-top: 0;
-  color: #fff; 
-  background-image: url('../assets/homePageBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
 }
 
 .about_info {
@@ -40,7 +37,7 @@
   right: 0;
   width: 100%;
   height: 130%; 
-  background: radial-gradient(44.98% 64.98% at 100% 0%, #A83279 0%, rgba(6, 19, 45, 0) 100%);
+  background: radial-gradient(44.98% 64.98% at 100% 0%, #00ABE4 0%, rgba(6, 19, 45, 0) 100%);
   z-index: -1;
 }
 
@@ -56,7 +53,6 @@
 .about_info_presentation_text {
   font-size: 1.5rem;
   margin-left: 2rem;
-  color: #fff; 
   width: 50%;
 }
 
@@ -91,9 +87,9 @@
 }
 
 .about_info_presenation_perso {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   text-align: center;
-  color: #D38312;
+  color: #E9F1FA;
   font-family: 'Exo 2';
   padding: 1.25rem;
   border-radius: 10px;
@@ -116,7 +112,7 @@
 .about_info_other {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -153,7 +149,7 @@
   font-family: 'Exo 2';
   font-size: 2.125rem;
   font-weight: 600;
-  color: #D38312;
+  color: #E9F1FA;
   margin-bottom: 3.75rem;
 }
 
@@ -164,7 +160,7 @@
 
 .about_info_presenation_perso li {
   font-size: 1.3rem;
-  color: #fff; 
+  color: #E9F1FA; 
   font-weight: 500;
   line-height: 1.875rem;
   margin-bottom: 0.5rem;
@@ -177,14 +173,14 @@
 .about_info_presenation_perso_CV a {
   position: relative;
   display: inline-block;
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
-  color: #fff;
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+  color: #E9F1FA;
   padding: 0.5rem 2rem;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
-  border: 1px solid #A83279; 
-  outline: 2px solid #D38312; 
+  border: 1px solid #E9F1FA; 
+  outline: 2px solid #E9F1FA; 
   outline-offset: 4px;   overflow: hidden;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -225,7 +221,7 @@
 .about_info_library p,
 .about_info_backend p,
 .about_info_seo p {
-  color: #fff ; 
+  color: #E9F1FA ; 
   font-size: 1.5rem;
   width: 70%;
 }
@@ -261,7 +257,7 @@ overflow-x: hidden;
 
 .about_info_presentation::before{
   top: -4rem;
-  background: radial-gradient(54.98% 54.98% at 100% 0%, #A83279 0%, rgba(6, 19, 45, 0) 100%);
+  background: radial-gradient(54.98% 54.98% at 100% 0%, #00ABE4 0%, rgba(6, 19, 45, 0) 100%);
 }
 
 .about_info_presentation_introduction {

@@ -7,28 +7,28 @@
   left: 0;
   width: 13rem;
   height: 100vh; 
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   border-top-right-radius: 2.7rem; 
-  border-right: 0.15rem solid #D38312;
+  border-right: 0.15rem solid black;
   z-index: 10;
 }
 
 .navbar_header nav {
   display: flex;
   flex-direction: column; 
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #A83279 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   border-top-right-radius: 2.5rem; 
 }
 
 .navbar_header nav a {
   position: relative;
-  color: #fff;
+  color: #E9F1FA;
   font-family: 'Exo 2';
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
-  border-bottom: 0.0625rem solid #D38312;
+  border-bottom: 0.0625rem solid black;
   padding: 1.25rem 1.9375rem;
   overflow: hidden;
 }
@@ -55,14 +55,14 @@
 .navbar_footer {
   display: flex;
   flex-direction: column; 
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #A83279 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   margin-top: auto; 
 }
 
 .navbar_footer_link {
   display: flex;
   justify-content: center;
-  border: 0.0625rem solid #D38312;
+  border: 0.0625rem solid black;
   border-right: none;
   border-left: none;
   gap: 1.25rem; 
@@ -71,7 +71,7 @@
 }
 
 .navbar_footer_link a {
-  color: #fff;
+  color: #E9F1FA;
   transition: transform 0.3s ease;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .navbar_footer_mention {
-  color: #fff;
+  color: #E9F1FA;
   font-family: 'Exo 2';
   text-align: center;
   font-size: 1rem;
@@ -101,7 +101,7 @@
 .burger-icon {
   width: 30px;
   height: 3px;
-  background: linear-gradient(264.28deg, #D38312 -38.2%, #A83279 103.12%);
+  background: black;
   position: relative;
 }
 
@@ -110,7 +110,7 @@
   position: absolute;
   width: 30px;
   height: 3px;
-  background: linear-gradient(264.28deg, #D38312 -38.2%, #A83279 103.12%);
+  background: black;
   transition: all 0.3s ease;
 }
 
@@ -128,7 +128,7 @@
     height: 60px; 
     border-radius: 0;
     border-right: none;
-    border-bottom: 0.2rem solid #D38312;
+    border-bottom: 0.2rem solid black;
     display: flex;
     flex-direction: column;
   }
@@ -146,7 +146,11 @@
   .navbar_burger {
     display: flex;
     justify-content: end;
-    margin: 1rem;
+    padding: 1.8rem;
+    border: 0.0625rem solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
   }
 
   .navbar.open {
@@ -171,9 +175,6 @@
   .navbar_footer_link a svg {
     width: 30px; 
     height: 30px; 
-  }
-  .navbar_footer_mention {
-     border-bottom: 0.0625rem solid #D38312;
   }
 
   .navbar_footer_mention p {

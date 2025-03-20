@@ -1,5 +1,5 @@
 .carousel {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   width: 70%;
   padding: 1.25rem;
   transform: translateX(-100%) scale(0.5);
@@ -54,12 +54,12 @@ button::after {
 }
 
 .slick-prev:before, .slick-next:before {
-  color: #D38312;
+  color: #E9F1FA;
   opacity: 100%;
 }
 
 .slick-prev:hover:before, .slick-next:hover:before {
-  color: #f0ba09; 
+  color: #b9d8fc; 
 }
 
 .slick-dots {
@@ -68,18 +68,18 @@ button::after {
 }
 
 .slick-dots li button:before {
-  color: #fff;
+  color: #E9F1FA;
   opacity: 100%;
   font-size: 12px;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #D38312;
+  color: black;
   opacity: 100%;
 }
 
 .slick-dots li button:hover:before {
-  color: #f0ba09; 
+  color: #b9d8fc; 
   transform: scale(1.4);
   transition: transform 0.2s ease-in-out;
 }

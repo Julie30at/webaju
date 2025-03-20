@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar";
 import '../styles/cv.css';
-import cv from '../assets/CV_julie.webp';
-import cvPDF from '../assets/CV_Devellopeur_Web_2025.pdf';
+import cv from '../assets/CV-Dev-Web.webp';
+import cvPDF from '../assets/CV-Devellopeur-Web.pdf';
 
 
 function Cv() {

@@ -1,9 +1,4 @@
-.project_detail {
-  background-image: url('../assets/homePageBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;  
-  color: #fff;
+.project_detail { 
   padding: 3rem;
   min-height: 100vh;
   display: flex;
@@ -19,12 +14,12 @@
   align-items: center;
   width: 60%;
   border-radius: 15px;
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
 }
 
 .back_button {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
-  color: #fff;
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+  color: #E9F1FA;
   padding: 0.5rem 2rem;
   text-decoration: none;
   display: inline-block;
@@ -35,8 +30,8 @@
   overflow: hidden;
   margin-bottom: 3rem;
   position: relative;
-  border: 1px solid #A83279;
-  outline: 2px solid #D38312;
+  border: 1px solid #00ABE4;
+  outline: 2px solid #00ABE4;
   outline-offset: 4px;
 }
 
@@ -69,7 +64,7 @@
   font-weight: 500;
   margin-top: 0;
   padding: 1.5rem;
-  color: #D38312;
+  color: #00ABE4;
   font-size: 1.3rem;
   text-decoration: underline;
 }
@@ -86,14 +81,14 @@
   align-items: center;
   gap: 1rem;
   font-size: 16px;
-  color: #fff;
+  color: #E9F1FA;
   text-decoration: none;
   transition: transform 0.3s ease, text-decoration 0.3s ease;
 }
 
 .project_links a:hover {
   text-decoration: underline;
-  color: #D38312;
+  color: #00ABE4;
   transform: scale(1.2);
 }
 
@@ -106,17 +101,17 @@
 .project_description h2 {
   font-size: 1.2rem;
   font-family: 'Exo 2';
-  color: #D38312;
+  color: #00ABE4;
 }
 
 .project_description p {
   font-size: 1rem;
   margin-top: 1rem;
-  color: #fff;
+  color: #E9F1FA;
 }
 
 .project_detail_contain h3 {
-  color: #D38312;
+  color: #00ABE4;
   font-size: 1.2rem;
   font-family: 'Exo 2';
 }

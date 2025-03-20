@@ -12,15 +12,12 @@
   font-style: italic;
   font-weight: 500;
   text-align: left;
-  border-top: 0.125rem solid #D38312;
-  border-bottom: 0.125rem solid #D38312;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
   padding: 1.25rem 0 0.625rem 6.25rem;
   margin-top: 0;
-  color: #fff; 
-  background-image: url('../assets/homePageBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
 }
 
 .cv_julie {
@@ -28,26 +25,6 @@
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
-    background: radial-gradient(40% 40% at 55% 50%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-    animation: zoomBackground 6s infinite ease-in-out;
-    background-size: 100% 100%; 
-    background-position: center; 
-}
-
-/* Animation de zoom sur le background */
-@keyframes zoomBackground {
-    0% {
-        background-size: 100% 100%; 
-        background-position: center; 
-    }
-    50% {
-        background-size: 200% 150%; 
-        background-position: center; 
-    }
-    100% {
-        background-size: 100% 100%; 
-        background-position: center; 
-    }
 }
 
 .cv_julie img {
@@ -70,16 +47,16 @@
 }
 
 .cv_button {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
-  color: #fff;
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+  color: #E9F1FA;
   padding: 0.5rem 2rem;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   font-weight: bold;
   text-align: center;
-  border: 1px solid #A83279; 
-  outline: 2px solid #D38312; 
+  border: 1px solid #00ABE4;
+  outline: 2px solid #00ABE4; 
   outline-offset: 4px; 
   transition: transform 0.3s ease, background-color 0.3s ease;
   overflow: hidden; 
@@ -108,7 +85,7 @@
 
 .cv_button a {
   text-decoration: none;
-  color: #fff;
+  color: #E9F1FA;
 }
 
 .pdf_icon {
@@ -133,11 +110,6 @@
     padding-top: 30px;
 }
 
-  .cv_julie {
-    background: radial-gradient(50% 50% at 50% 50%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-    animation: zoomBackground 4s infinite ease-in-out;
-  }
-
   .cv_julie img {
     width: 60%;
     margin-bottom: 2rem;
@@ -161,7 +133,6 @@
 
   .cv_julie {
     padding-top: 2rem;
-    background: radial-gradient(50% 50% at 50% 45%, #A83279 0, rgba(6, 19, 45, 0) 100%);
   }
 
   .cv_button a {

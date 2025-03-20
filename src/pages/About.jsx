@@ -3,7 +3,7 @@ import Carousel from "../Components/Carousel";
 import { NavLink } from "react-router-dom";
 import "../styles/about.CSS";
 import jsLogo from "../assets/logoJs.webp";
-import htmlLogo from "../assets/logoHTML..webp";
+import htmlLogo from "../assets/html.webp";
 import sassCssLogo from "../assets/logoSassCSS.webp";
 import reactLogo from "../assets/logoREACT.webp";
 import nodeLogo from "../assets/logoNodejsexpress.webp";

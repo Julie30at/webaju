@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../assets/homePageBackground.webp');
+  background-image: url('../assets/back.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 .home h2 {
   font-family: 'Exo 2';
   font-size: 2.5rem; 
-  color: #fff;
+  color: black;
   font-weight: 600;
   display: inline-flex; 
   justify-content: center; 
@@ -41,7 +41,7 @@
   font-family: 'Exo 2';
   font-size: 2.5rem; 
   font-weight: 600;
-  color: #fff;
+  color: black;
   display: inline-flex; 
   justify-content: center; 
   align-items: center; 
@@ -59,7 +59,7 @@
 }
 
 .highlight {
-  color: #D38312;
+  color: #00ABE4;
   font-weight: bold; 
 }
 

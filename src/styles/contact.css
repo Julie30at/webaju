@@ -13,15 +13,12 @@
   font-style: italic;
   font-weight: 500;
   text-align: left;
-  border-top: 0.125rem solid #D38312;
-  border-bottom: 0.125rem solid #D38312;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
   padding: 1.25rem 0 0.625rem 6.25rem;
   margin-top: 0;
-  color: #fff; 
-  background-image: url('../assets/homePageBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
 }
 
 .contact_form {
@@ -29,27 +26,9 @@
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  background: radial-gradient(34.98% 44.98% at 54% 50%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-  animation: zoomBackground 6s infinite ease-in-out;
   font-family: 'Exo 2';
   font-size: 1.4rem;
-  color: #D38312;
-}
-
-/* Animation de zoom sur le background */
-@keyframes zoomBackground {
-    0% {
-        background-size: 100% 100%; 
-        background-position: center; 
-    }
-    50% {
-        background-size: 150% 120%; 
-        background-position: center; 
-    }
-    100% {
-        background-size: 100% 100%; 
-        background-position: center; 
-    }
+  color: #00ABE4;
 }
 
 #contactForm {
@@ -68,7 +47,7 @@
 }
 
 .form_group label {
-  color: #fff;
+  color: #00ABE4;
   font-family: 'Montserrat';
   margin-top: 2rem;
 }
@@ -81,12 +60,12 @@
 
 .form_group input,
 textarea {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   font-family: 'montserrat';
   border: none;
   font-size: 1.25rem;
   font-weight: 600;
-  color: #fff;
+  color: #E9F1FA;
   padding: 1.3rem;
   border-radius: 10px;
   resize: none;
@@ -94,15 +73,15 @@ textarea {
 
 .form_group input::placeholder,
 textarea::placeholder {
-  color: #fff;
+  color: #E9F1FA;
   font-family: 'montserrat';
   font-size: 1.25rem;
   font-weight: 600;
 }
 
 button {
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
-  color: #fff;
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+  color: #E9F1FA;
   padding: 0.5rem 2rem;
   text-decoration: none;
   display: inline-block;
@@ -113,8 +92,8 @@ button {
   transition: transform 0.3s ease, background-color 0.3s ease;
   overflow: hidden; 
   position: relative; 
-  border: 1px solid #A83279; 
-  outline: 2px solid #D38312; 
+  border: 1px solid #00ABE4; 
+  outline: 2px solid #00ABE4; 
   outline-offset: 4px; 
 }
 
@@ -145,7 +124,7 @@ button:hover {
 }
 
 .success {
-  color: #D38312;
+  color: #00ABE4;
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -158,14 +137,14 @@ button:hover {
 
 .handshake_icon {
   font-size: 3rem;
-  color: #D38312;
+  color: #00ABE4;
 }
 
 .envelope_icon,
 .location_icon,
 .linkedin_icon {
   font-size: 2rem;
-  color: #fff;
+  color: #00ABE4;
   margin-top: 5rem;
 }
 
@@ -175,7 +154,7 @@ button:hover {
 a {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #00ABE4;
 }
 
 .contact_email p, 
@@ -203,8 +182,6 @@ a {
 
   .contact_form{
     font-size: 1.2rem;
-    background: radial-gradient(34.98% 14.98% at 50% 40%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-    animation: zoomBackground 4s infinite ease-in-out;
     gap: 0;
   }
 

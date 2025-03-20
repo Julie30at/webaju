@@ -9,16 +9,13 @@
   font-style: italic;
   font-weight: 500;
   text-align: left;
-  border-top: 0.125rem solid #D38312;
-  border-bottom: 0.125rem solid #D38312;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
   padding: 1.25rem 0 0.625rem 6.25rem;
   margin-bottom: 2.5rem;
   margin-top: 0;
-  color: #fff; 
-  background-image: url('../assets/homePageBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
 }
 
 .portfolioProject {
@@ -26,21 +23,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  background: radial-gradient(54.98% 34.98% at 90% 90%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-  background-size: 100% 100%;
-  animation: zoomBackground 6s infinite ease-in-out;  
-}
-
-@keyframes zoomBackground {
-  0% {
-    background-size: 100% 100%;
-  }
-  50% {
-    background-size: 120% 120%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
+  background: radial-gradient(44.98% 34.98% at 90% 90%, #00ABE4 0, rgba(6, 19, 45, 0) 100%);
 }
 
 .portfolio_title_project {
@@ -48,7 +31,7 @@
   font-family: 'Exo 2';
   font-size: 2.125rem;
   font-weight: 600;
-  color: #D38312;
+  color: #00ABE4;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
   padding: 3rem;
   opacity: 0; 
   border-radius: 10px;
@@ -130,7 +113,7 @@
 }
 
 .portfolio_project_name {
-  color: #D38312;
+  color: #00ABE4;
   font-family: 'Exo 2';
   font-size: 1.8rem;
 }
@@ -138,7 +121,7 @@
 .portfolio_project_link {
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: #E9F1FA;
   text-decoration: none;
   text-align: center;
   margin-top: 1rem;
@@ -147,7 +130,7 @@
 }
 
 .portfolio_project_link:hover {
-  color: #D38312;
+  color: #00ABE4;
   transform: scale(1.1);
 }
 
@@ -170,8 +153,7 @@
 }
 
 .portfolioProject{
-  background: radial-gradient(64.98% 24.98% at 90% 100%, #A83279 0, rgba(6, 19, 45, 0) 100%);
-  animation: zoomBackground 4s infinite ease-in-out;  
+  background: radial-gradient(64.98% 24.98% at 90% 100%, #00ABE4 0, rgba(6, 19, 45, 0) 100%);
 }
 
 .portfolio_title_project{

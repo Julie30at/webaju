@@ -4,7 +4,7 @@
   align-items: center;
   height: 100%; 
   text-align: center;
-  background-image: url('../assets/homePageBackground.webp');
+  background-image: url('../assets/back.webp');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@
 }
 
 .loading_text_catchphrase {
-  color: #fff;
+  color: #00ABE4;
   font-family: "Exo 2";
   font-size: 2rem;
   font-weight: 700;
@@ -47,27 +47,27 @@
 }
 
 .dot1 {
-  background-color: #f0ba09;  
+  background-color: #66D6F4;  
   animation-delay: 0s;
 }
 
 .dot2 {
-  background-color: #D38312;  
+  background-color: #33C1EC;  
   animation-delay: 0.2s;
 }
 
 .dot3 {
-  background-color: #eb4f07;  
+  background-color: #00ABE4;  
   animation-delay: 0.4s;
 }
 
 .dot4 {
-  background-color: #d31a61;  
+  background-color: #0089B4;  
   animation-delay: 0.6s;
 }
 
 .dot5 {
-  background-color: #8B1A4B; 
+  background-color: #00698A; 
   animation-delay: 0.8s;
 }
 

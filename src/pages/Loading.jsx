@@ -1,5 +1,5 @@
 import '../styles/loading.css';
-import julieAtPhoto from '../assets/webaju.webp'; 
+import julieAtPhoto from '../assets/webaju-removebg-preview.webp'; 
 
 function Loading() {
   return (
