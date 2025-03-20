@@ -1,0 +1,230 @@
+.portfolio {
+  margin-left: 11rem;
+}
+
+.portfolio_title {
+  text-transform: uppercase;
+  font-family: 'Exo 2';
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  border-top: 0.125rem solid #D38312;
+  border-bottom: 0.125rem solid #D38312;
+  padding: 1.25rem 0 0.625rem 6.25rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  color: #fff; 
+  background-image: url('../assets/homePageBackground.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.portfolioProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  background: radial-gradient(54.98% 34.98% at 90% 90%, #A83279 0, rgba(6, 19, 45, 0) 100%);
+  background-size: 100% 100%;
+  animation: zoomBackground 6s infinite ease-in-out;  
+}
+
+@keyframes zoomBackground {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.portfolio_title_project {
+  display: flex;
+  font-family: 'Exo 2';
+  font-size: 2.125rem;
+  font-weight: 600;
+  color: #D38312;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 5rem;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 15%;
+}
+
+.portfolio_project > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(264.28deg, #512f80 -38.2%, #070a29 103.12%);
+  padding: 3rem;
+  opacity: 0; 
+  border-radius: 10px;
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+/* Animation de fade-in */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.portfolio_project > div:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.portfolio_project > div:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.portfolio_project > div:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.portfolio_project > div:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.portfolio_project > div:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+.portfolio_project > div img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-bottom: 0.625rem;
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.portfolio_project > div img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio_project > div img:first-child + img {
+  width: 20rem;
+  height: 5.94rem;
+  object-fit: contain; 
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 1rem;
+  transform: scale(1);
+}
+
+.portfolio_project_name {
+  color: #D38312;
+  font-family: 'Exo 2';
+  font-size: 1.8rem;
+}
+
+.portfolio_project_link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio_project_link:hover {
+  color: #D38312;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+.portfolio {
+  margin-left: 0;
+}
+
+.portfolio_title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2rem;
+  padding-top: 90px;
+  margin-bottom: 10px;
+}
+
+.extra-sections .portfolio_title {
+    padding-top: 30px;
+}
+
+.portfolioProject{
+  background: radial-gradient(64.98% 24.98% at 90% 100%, #A83279 0, rgba(6, 19, 45, 0) 100%);
+  animation: zoomBackground 4s infinite ease-in-out;  
+}
+
+.portfolio_title_project{
+  font-size: 1.7rem;
+}
+
+.portfolio_project > div img{
+  width: 12rem;
+  height: 12rem;
+}
+
+.portfolio_project_name {
+  font-size: 1.3rem;
+}
+
+.portfolio_project_link {
+  font-size: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+.portfolio_title {
+  font-size: 1.5rem;
+}
+
+.portfolio_title_project{
+  font-size: 1.2rem;
+}
+
+.portfolio_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 2rem;
+  width: 70%;
+}
+
+.portfolio_project > div {
+  width: 90%;
+}
+
+.portfolio_project > div img{
+  width: 10rem;
+  height: 10rem;
+}
+
+.portfolio_project_name {
+  font-size: 1.5rem;
+}
+
+.portfolio_project_link {
+  font-size: 0.80rem;
+}
+}

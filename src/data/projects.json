@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Oh My Food",
+    "image": "ohMyFoodPhoto",
+    "logo": "logoOhMyFood",
+    "description": {
+      "title": "Plateforme de commande de repas en ligne",
+      "paragraph": "J'ai développé l'interface visuelle du site en adoptant une approche mobile-first, garantissant ainsi une adaptabilité optimale à toutes les tailles d'écran. J'ai également utilisé SASS pour le CSS en intégrant aussi des animations soignées pour offrir une expérience utilisateur fluide et moderne."
+    },
+    "technologies": ["logoHTML", "logoSassCSS", "logoFigma"],
+    "githubLink": "https://github.com/Julie30at/Projet_Ohmyfood",
+    "siteLink": "https://julie30at.github.io/Projet_Ohmyfood/"
+  },
+  {
+    "id": 2,
+    "name": "Sophie Bluel",
+    "image": "sophieBluelPhoto",
+    "logo": "logoSophieBluel",
+    "description": {
+      "title": "Portfolio d’une architecte d’intérieur",
+      "paragraph": "J'ai développé la page de présentation des travaux de l'architecte, une page de connexion pour l'administrateur et une modale d'upload de médias. J'ai utilisé JavaScript en intégrant une API et les maquettes Figma."
+    },
+    "technologies": ["logoFigma", "logoSwagger", "logoJS"],
+    "githubLink": "https://github.com/Julie30at/projet_6_Portfolio_architecte_sophie_bluel"
+  },
+  {
+    "id": 3,
+    "name": "Kasa",
+    "image": "kasaPhoto",
+    "logo": "logoKasa",
+    "description": {
+      "title": "Entreprise de location d’appartements entre particuliers",
+      "paragraph": "Il s'agit d'une refonte de site, pour laquelle j'ai développé le frontend de l'application avec React, en respectant les maquettes et en assurant une compatibilité responsive."
+    },
+    "technologies": ["logoReact", "logoNodeJS", "logoSassCSS"],
+    "githubLink": "https://github.com/Julie30at/kasa"
+  },
+  {
+    "id": 4,
+    "name": "Nina Carducci",
+    "image": "ninaCarducciPhoto",
+    "logo": "logoNinaCarducci",
+    "description": {
+      "title": "Portfolio d'une photographe",
+      "paragraph": "Optimisation du référencement du site en améliorant sa performance et son accessibilité."
+    },
+    "technologies": ["logoGoogleSearchConsole", "logoWave", "logoLighthouse"],
+    "githubLink": "https://github.com/Julie30at/Nina_Carducci",
+    "siteLink": "https://julie30at.github.io/Nina_Carducci/"
+  },
+  {
+    "id": 5,
+    "name": "Argent Bank",
+    "image": "argentBankPhoto",
+    "logo": "logoArgentBank",
+    "description": {
+      "title": "Application bancaire",
+      "paragraph": "J'ai développé le front-end de l'application web responsive avec React et Redux, qui inclue l'authentification utilisateur, la gestion des profils, et l'intégration des API via Swagger. J'ai optimisé l'application en améliorant les performances et sa maintenabilité, grâce à des pratiques telles que le traitement des images et la création de composants réutilisables."
+    },
+    "technologies": ["logoReact", "logoNodeJS", "logoMongoDB", "logoRedux", "logoSwagger"],
+    "githubLink": "https://github.com/Julie30at/ArgentBank-Frontend"
+  }
+]
