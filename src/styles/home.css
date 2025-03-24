@@ -111,10 +111,15 @@
 
 @media (max-width: 768px){ 
 
-.home_photo {
+  .home {
+  background-image: url('../assets/backMobile.webp');
+  }
+
+  .home_photo {
   width: 10rem; 
   height: 10rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
+  margin-bottom: 0rem;
 }
 
 .home h2 {

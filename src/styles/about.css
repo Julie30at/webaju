@@ -180,8 +180,7 @@
   font-weight: bold;
   text-align: center;
   border: 1px solid #E9F1FA; 
-  outline: 2px solid #E9F1FA; 
-  outline-offset: 4px;   overflow: hidden;
+  overflow: hidden;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 

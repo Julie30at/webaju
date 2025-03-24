@@ -31,8 +31,6 @@
   margin-bottom: 3rem;
   position: relative;
   border: 1px solid #00ABE4;
-  outline: 2px solid #00ABE4;
-  outline-offset: 4px;
 }
 
 .back_button::after {

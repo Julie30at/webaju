@@ -141,7 +141,7 @@ const handleSubmit = (e) => {
 
             {successMessage && <div className="success">{successMessage}</div>}
 
-            <div className="icon_container">
+            <div className="icon_handshake">
               <FontAwesomeIcon icon={faHandshake} className="handshake_icon" aria-label="Icône de contact" />
             </div>
             <div className="icon_container">
@@ -153,14 +153,14 @@ const handleSubmit = (e) => {
               </div>
               <div className="contact_location">
                 <a 
-                  href="https://www.google.com/maps?q=30900+Nîmes,+France" 
+                  href="https://www.google.com/maps/place/France/@45.9965717,-2.6896,6z/data=!3m1!4b1!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?authuser=0&entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="Voir la localisation sur Google Maps"
                 >
                   <FontAwesomeIcon icon={faLocationDot} className="location_icon" aria-label="Icône de localisation" />
                 </a>
-                <p>30900 Nîmes, France</p>
+                <p>France</p>
               </div>
               <div className="contact_phone">
                 <a href="https://www.linkedin.com/in/julie30at" target="_blank" 

@@ -93,8 +93,6 @@ button {
   overflow: hidden; 
   position: relative; 
   border: 1px solid #00ABE4; 
-  outline: 2px solid #00ABE4; 
-  outline-offset: 4px; 
 }
 
 button::after {
@@ -132,7 +130,10 @@ button:hover {
 .icon_container {
   display: flex;
   justify-content: center;
-  gap: 2.3rem;
+  align-items: center;
+  text-align: center;
+  margin-left: 6rem;
+  gap: 10rem;
 }
 
 .handshake_icon {
@@ -225,7 +226,7 @@ a {
    }
 
    .icon_container{
-    gap: 3rem;
+    gap: 6rem;
    }
 
    .handshake_icon {
@@ -247,16 +248,18 @@ a {
 }
 
 @media (max-width :768px) {
+
   .contact_title {
     font-size: 1.5rem;
   }
 
   .contact_form{
     font-size: 0.80rem;
+    margin-top: 0rem;
   }
 
   #contactForm {
-    margin-top: 2rem;
+    margin-top: 0rem;
     gap: 2rem;
     min-width: 100%;
   }
@@ -281,7 +284,7 @@ a {
   }
 
   .form_group label {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 
   .form_group input,
@@ -312,6 +315,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    margin-left: 0rem;
    }  
 
    .handshake_icon {
@@ -322,7 +326,7 @@ a {
    .location_icon,
    .linkedin_icon {
     font-size: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
    }
 
    .contact_email, 
