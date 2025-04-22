@@ -25,6 +25,7 @@ const CookieBanner = () => {
   }, []);
 
   const acceptCookies = () => {
+    // Mettre à jour le consentement des cookies pour Google Analytics
     window.gtag && window.gtag('consent', 'update', {
       'ad_storage': 'granted',
       'analytics_storage': 'granted',
@@ -32,6 +33,17 @@ const CookieBanner = () => {
       'personalization_storage': 'granted'
     });
 
+    // Charger Google Analytics seulement après le consentement
+    const script = document.createElement('script');
+    script.src = "https://www.googletagmanager.com/gtag/js?id=GTM-5HBTNVM8";
+    script.async = true;
+    script.onload = () => {
+      window.gtag('js', new Date());
+      window.gtag('config', 'GTM-5HBTNVM8');
+    };
+    document.head.appendChild(script);
+
+    // Sauvegarder le consentement dans le localStorage
     localStorage.setItem("cookie_consent", "true");
     localStorage.setItem("cookie_consent_date", new Date().toISOString());
     setVisible(false);
