@@ -8,6 +8,9 @@ import Cv from './pages/Cv';
 import Contact from './pages/Contact';
 import Loading from './pages/Loading';
 import ProjectDetail from './pages/ProjectDetail';
+import Cgv from './pages/Cgv';
+import Mentions from './pages/MentionsLegal';
+import CookieBanner from "./Components/CookieBanner";
 
 function App() {
   const [isLoading, setIsLoading] = useState(() => {
@@ -20,7 +23,7 @@ function App() {
         setIsLoading(false);
         sessionStorage.setItem('hasVisited', 'true');
       }, 4500);
-  
+
       return () => clearTimeout(timer);
     }
   }, []);
@@ -31,16 +34,22 @@ function App() {
       {isLoading ? (
         <Loading />
       ) : (
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/project/:id" element={<ProjectDetail />} />
-          <Route path="/cv" element={<Cv />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <>
+          {/* Ajouter le bandeau de cookies ici */}
+          <CookieBanner />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/project/:id" element={<ProjectDetail />} />
+            <Route path="/cv" element={<Cv />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cgv" element={<Cgv />} />
+            <Route path='/mentions' element={<Mentions />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </>
       )}
     </Router>
   );

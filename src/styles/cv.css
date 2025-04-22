@@ -32,6 +32,7 @@
     opacity: 0; 
     transform: rotateY(180deg); 
     animation: flipIn 1.5s ease-out forwards; 
+    max-width: 80%;
 }
 
 /* Animation de retournement de l'image */

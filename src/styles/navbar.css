@@ -79,6 +79,12 @@
   transform: scale(1.2); 
 }
 
+.CGV {
+  text-align: center;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
 .navbar_footer_mention {
   color: #E9F1FA;
   font-family: 'Exo 2';

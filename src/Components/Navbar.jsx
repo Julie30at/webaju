@@ -55,6 +55,12 @@ function Navbar() {
                         <FaGithub size={41} />
                     </a>
                 </div>
+                <div className="navbar_footer_link CGV">
+                    <NavLink to="/cgv" aria-label="Conditions Générales de Vente" onClick={closeMenu}>Conditions Générales de Vente</NavLink>
+                </div>
+                <div className="navbar_footer_link CGV">
+                    <NavLink to="/mentions" aria-label="Mentions légales" onClick={closeMenu}>Mentions légales</NavLink>
+                </div>
                 <div className="navbar_footer_mention">
                     <p>© 2025 Julie AT</p>
                     <p>Tous droits réservés</p>

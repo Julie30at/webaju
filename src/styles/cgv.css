@@ -1,0 +1,29 @@
+.cgv {
+  margin-left: 11rem; 
+  padding-bottom: 2.5rem;
+  height: auto;
+  min-height: 100vh; 
+  box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.cgv_title {
+  text-transform: uppercase;
+  font-family: 'Exo 2';
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
+  padding: 1.25rem 0 0.625rem 6.25rem;
+  margin-top: 0;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+}
+
+.cgv_text {
+    margin-left: 5rem;
+    margin-right: 50rem;
+}

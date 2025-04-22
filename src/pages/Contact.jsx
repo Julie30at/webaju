@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import '../styles/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandshake, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake, faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import emailjs from 'emailjs-com';
 import { emailJsConfig } from '../config/globalConfig';
@@ -163,6 +163,15 @@ const handleSubmit = (e) => {
                 <p>France</p>
               </div>
               <div className="contact_phone">
+                <a 
+                  href="tel:0783889728" 
+                  aria-label="Appeler le numéro de téléphone"
+                >
+                  <FontAwesomeIcon icon={faPhone} className="phone_icon" aria-label="Icône téléphone" />
+                </a>
+                <p>07.83.88.97.28</p>
+               </div>
+              <div className="contact_reseaux">
                 <a href="https://www.linkedin.com/in/julie30at" target="_blank" 
                    rel="noopener noreferrer"
                    aria-label="Voir mon linkedin"

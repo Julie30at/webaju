@@ -132,8 +132,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 6rem;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .handshake_icon {
@@ -143,7 +142,8 @@ button:hover {
 
 .envelope_icon,
 .location_icon,
-.linkedin_icon {
+.linkedin_icon,
+.phone_icon {
   font-size: 2rem;
   color: #00ABE4;
   margin-top: 5rem;
@@ -151,7 +151,8 @@ button:hover {
 
 .contact_email, 
 .contact_location,
-.contact_phone, 
+.contact_phone,
+.contact_reseaux, 
 a {
   display: flex;
   flex-direction: column;
@@ -160,7 +161,8 @@ a {
 
 .contact_email p, 
 .contact_location p,
-.contact_phone p {
+.contact_phone p,
+.contact_reseaux p {
   font-size: 1.1rem
 }
 
@@ -226,7 +228,8 @@ a {
    }
 
    .icon_container{
-    gap: 6rem;
+    gap: 3rem;
+    margin-left: 0rem;
    }
 
    .handshake_icon {
@@ -235,13 +238,15 @@ a {
 
    .envelope_icon,
    .location_icon,
-   .linkedin_icon {
+   .linkedin_icon,
+   .phone_icon {
     font-size: 2.1rem;
    }
 
    .contact_email, 
    .contact_location,
    .contact_phone, 
+   .contact_reseaux,
    a {
     font-size: 1rem;
    }
@@ -324,7 +329,8 @@ a {
 
    .envelope_icon,
    .location_icon,
-   .linkedin_icon {
+   .linkedin_icon,
+   .phone_icon {
     font-size: 1rem;
     margin-top: 1rem;
    }
@@ -332,6 +338,7 @@ a {
    .contact_email, 
    .contact_location,
    .contact_phone, 
+   .contact_reseaux,
    a {
     font-size: 0.75rem;
    }
