@@ -44,3 +44,10 @@ overflow-x: hidden;
   margin-right: 5rem;
 }
 }
+
+@media (max-width: 768px) {
+  .mentions_text {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
