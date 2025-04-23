@@ -25,3 +25,22 @@
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
+@media (max-width: 1024px) {
+  .mentions {
+margin-left: 0;
+overflow-x: hidden;
+}
+
+.mentions_title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2rem;
+  padding-top: 90px;
+}
+
+.mentions_text {
+  margin-right: 5rem;
+}
+}
