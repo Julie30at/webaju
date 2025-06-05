@@ -1,0 +1,93 @@
+.services {
+  margin-left: 11rem; 
+  padding-bottom: 2.5rem;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.services_title {
+  text-transform: uppercase;
+  font-family: 'Exo 2';
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
+  padding: 1.25rem 0 0.625rem 6.25rem;
+  margin-top: 0;
+  color: #E9F1FA; 
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+}
+
+.services_julie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+    margin-bottom: 5rem;
+    color: #E9F1FA;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.service_block h2 {
+    color: #00ABE4;
+}
+
+.service_contact a {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(264.28deg, #00ABE4 -38.2%, #070a29 103.12%);
+  color: #E9F1FA;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #E9F1FA; 
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service_contact a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  transition: left 0.5s ease-in-out;
+}
+
+.service_contact a:hover::after {
+  left: 150%;
+}
+
+.service_contact a:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 1024px) {
+   .services {
+    margin-left: 0;
+   }
+
+   .services_title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem;
+    padding-top: 90px;
+   }
+}

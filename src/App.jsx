@@ -11,6 +11,7 @@ import ProjectDetail from './pages/ProjectDetail';
 import Cgv from './pages/Cgv';
 import Mentions from './pages/MentionsLegal';
 import CookieBanner from "./Components/CookieBanner";
+import Services from './pages/Services';
 
 function App() {
   const [isLoading, setIsLoading] = useState(() => {
@@ -45,6 +46,7 @@ function App() {
             <Route path="/project/:id" element={<ProjectDetail />} />
             <Route path="/cv" element={<Cv />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path='/services' element={<Services />} />
             <Route path="/cgv" element={<Cgv />} />
             <Route path='/mentions' element={<Mentions />} />
             <Route path="*" element={<Home />} />

@@ -33,6 +33,7 @@ function Navbar() {
                     <NavLink to="/about" aria-label="À propos de moi" onClick={closeMenu}>À propos</NavLink>
                     <NavLink to="/portfolio" aria-label="Mon portfolio" onClick={closeMenu}>Portfolio</NavLink>
                     <NavLink to="/cv" aria-label="Mon CV" onClick={closeMenu}>CV</NavLink>
+                    <NavLink to="/services" aria-label="Page des services" onClick={closeMenu}>Mes services</NavLink>
                     <NavLink to="/contact" aria-label="Page de contact" onClick={closeMenu}>Contact</NavLink>
                 </nav>
             </header>
