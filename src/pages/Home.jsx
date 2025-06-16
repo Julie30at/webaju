@@ -6,6 +6,7 @@ import '../styles/home.css';
 const About = lazy(() => import("./About"));
 const Portfolio = lazy(() => import("./Portfolio"));
 const Cv = lazy(() => import("./Cv"));
+const Services = lazy (() => import("./Services"))
 const Contact = lazy(() => import("./Contact"));
 
 function Home() {
@@ -33,6 +34,7 @@ function Home() {
           <About />
           <Portfolio />
           <Cv />
+          <Services />
           <Contact />
         </div>
       </Suspense>
