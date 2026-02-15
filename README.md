@@ -22,7 +22,7 @@ git clone https://github.com/Julie30at/webaju
 
 2. Accédez au dossier du projet :
 
-cd mon-portfolio
+cd webaju
 
 3. Installez les dépendances avec npm :
 
