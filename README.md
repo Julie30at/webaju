@@ -18,7 +18,7 @@ Pour installer et exécuter ce projet en local, voici les étapes à suivre :
 
 1. Clonez ce repository :
 
-git clone https://github.com/Julie30at/mon-portfolio.git
+git clone https://github.com/Julie30at/webaju
 
 2. Accédez au dossier du projet :
 
