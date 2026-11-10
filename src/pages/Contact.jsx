@@ -30,10 +30,10 @@ function Contact() {
 
           <div className="icon_container">
             <div className="contact_email">
-              <a href="mailto:contact@webaju.fr" aria-label="Envoyer un email">
+              <a href="mailto:webajuwebsitecreation@gmail.com" aria-label="Envoyer un email">
                 <FontAwesomeIcon icon={faEnvelope} className="envelope_icon" />
               </a>
-              <p>contact@webaju.fr</p>
+              <p>webajuwebsitecreation@gmail.com</p>
             </div>
 
             <div className="contact_location">
