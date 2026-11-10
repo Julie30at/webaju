@@ -63,7 +63,7 @@ function Navbar() {
                     <NavLink to="/mentions" aria-label="Mentions légales" onClick={closeMenu}>Mentions légales</NavLink>
                 </div>
                 <div className="navbar_footer_mention">
-                    <p>© 2025 Julie AT</p>
+                    <p>© 2026 Julie AT</p>
                     <p>Tous droits réservés</p>
                 </div>
             </footer>
